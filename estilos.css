@@ -1,0 +1,63 @@
+html{
+    height: 100%;
+}
+body{
+    margin: auto;
+    padding: auto;
+    /*background: linear-gradient( to right, #03430b, #11a30c); esto es para el gradiente */
+      /* background: linear-gradient( #24404d,#6dbff1, black); */
+       /*background: linear-gradient(to bottom right, blue, yellow); */
+      /* background: linear-gradient(45deg, red, yellow);  */
+  
+      /*background: radial-gradient(circle, rgba(123, 255, 0, 0.827),rgba(3, 67, 14, 0.444));
+      color: white; FONDO CIRCULAR*/
+      background-image: url(img/wallhaven-j5mywq.png);
+      background-repeat: no-repeat;
+      background-position: right top;
+      background-attachment: scroll;
+      background-size: cover;
+}
+.contenedor{
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background: rgb(0, 0, 0, .5);
+    border-radius: 10px;
+}
+.contenedor h2{
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    font-size: 40px;
+}
+.contenedor .elemento label{
+    color: white;
+
+}
+.contenedor .elemento input{
+    
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+}
+.contenedor .elemento input[type="submit"]{
+    background-color: red;
+    border: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+}
+.pasword{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rowdies', cursive;
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 25px;
+
+}
